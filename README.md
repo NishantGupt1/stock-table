@@ -2,4 +2,3 @@
 Investing CLI Tool
 
 # Node.js CLI Tool
-# Test
