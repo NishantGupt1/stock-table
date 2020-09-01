@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Investing CLI Tool",
   "main": "index.js",
+  "bin": "./bin/invest.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/NishantGupt1/invest-cli/issues"
   },
-  "homepage": "https://github.com/NishantGupt1/invest-cli#readme"
+  "homepage": "https://github.com/NishantGupt1/invest-cli#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "colors": "^1.4.0",
+    "commander": "^6.1.0",
+    "configstore": "^5.0.1",
+    "inquirer": "^7.3.3"
+  }
 }
