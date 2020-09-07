@@ -14,7 +14,7 @@ program
   .alias('p')
   .description('Get the stock price')
   .action((ticker, timeframe) => {
-    check.price(ticker)});
+    check.price(ticker, timeframe)});
 
 
 program.parse(process.argv);

@@ -3,13 +3,13 @@ const stockService = require('../lib/stockService');
 const tableService = require('../lib/tableService');
 
 const check = {
-  async price(ticker) {
+  async price(ticker, timeframe) {
     try {
       keyManager = new KeyManager();
       const key = keyManager.getKey();
 
       const api = new stockService(key);
-      const priceOutputData = await api.getPriceData(ticker);
+      const priceOutputData = await api.getPriceData(ticker, timeframe);
 
       const table = new tableService(priceOutputData);
 
