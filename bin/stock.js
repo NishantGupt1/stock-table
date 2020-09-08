@@ -6,8 +6,7 @@ const check = require('../commands/check');
 program.version(pkg.version)
 
 program
-  .command('key', 'Manage API Key -- https://www.alphavantage.co')
-  .command('check', 'Check Stock Price Info')
+  .command('key', 'Configure API key from https://www.alphavantage.co')
 
 program
   .command('table <ticker> [timeframe] [save]')
