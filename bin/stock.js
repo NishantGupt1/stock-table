@@ -10,7 +10,7 @@ program
 
 program
   .command('table <ticker> [timeframe] [save]')
-  .alias('p')
+  .alias('t')
   .description('Get the stock price')
   .action((ticker, timeframe, save) => {
     check.price(ticker, timeframe, save)});
