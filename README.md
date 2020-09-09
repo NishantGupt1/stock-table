@@ -5,18 +5,19 @@
   <p align="center">
 </p>
 </p>
-<p align="center"><img src="https://raw.githubusercontent.com/NishantGupt1/stock-table/master/example_table.png?token=AFJ7DEB4KEQYNXJ6V7KF4SS7K4BCI" alt="PNG"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/NishantGupt1/stock-table/master/example_table.png?token=AFJ7DEB2W3A6XNVTO6LBH2S7LBGXO" alt="PNG"></p>
+
 ## Features
 
 * Use any stock ticker 
 * Display monthly, weekly, or daily stock data
 * Supports multiple APIs
-* Autosave full JSON response
+* Save full JSON response to home directory
 
 ## Install
 
 ```
-npm install --global stock-table
+npm install stock-table
 
 ```
 
@@ -33,6 +34,40 @@ Commands:
   key                                  Configure API key from https://www.alphavantage.co
   table|t <ticker> [timeframe] [save]  Get the stock price
   help [command]                       display help for command
+```
+
+## Get Started
+You must provide your free API key from the alpha vantage API and set it using 
+```bash
+stock key set 
+```
+
+Additional key options:
+```
+$ stock key -h
+Usage: stock-key [options] [command]
+
+Options:
+  -h, --help      display help for command
+
+Commands:
+  set             Set API key - get one at https://www.alphavantage.co
+  show            Show API key
+  remove          Remove API key
+  help [command]  display help for command
+```
+
+## Example
+```bash
+stock table AAPL monthly
+```
+
+You may substitute the timeframe with either `monthly`, `weekly` or `daily`
+
+To save full JSON response to your home directory append `save` to the command
+
+```bash
+stock table AAPL daily save
 ```
 
 ## Supported APIs
