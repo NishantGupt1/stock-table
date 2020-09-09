@@ -5,7 +5,7 @@
   <p align="center">
 </p>
 </p>
-<p align="center"><img src="https://raw.githubusercontent.com/NishantGupt1/stock-table/master/example_table.png?token=AFJ7DEB2W3A6XNVTO6LBH2S7LBGXO" alt="PNG"></p>
+<p align="center"><img src="./example_table.png" alt="PNG"></p>
 
 ## Features
 
@@ -18,7 +18,6 @@
 
 ```
 npm install stock-table
-
 ```
 
 ## Usage
