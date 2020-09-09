@@ -5,7 +5,7 @@
   <p align="center">
 </p>
 </p>
-<p align="center"><img src="https://raw.githubusercontent.com/NishantGupt1/stock-table/master/example_table.png?token=AFJ7DEB4KEQYNXJ6V7KF4SS7K4BCI" alt="PNG"></p>
+<p align="center"><img src="https://i.imgur.com/WLDT7ir.png" alt="PNG"></p>
 
 ## Features
 
